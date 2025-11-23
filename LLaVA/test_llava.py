@@ -19,7 +19,7 @@ args = type('Args', (), {
     "model_path": model_path,
     "model_base": None,
     "model_name": get_model_name_from_path(model_path),
-    "query": "What do you see in this picture?",
+    "query": "What is the color or the cat?",
     "conv_mode": None,
     "image_file": "https://llava-vl.github.io/static/images/view.jpg",
     "sep": ",",
